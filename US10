@@ -1,0 +1,15 @@
+Feature: US10 - Información suscripción
+
+Como usuario
+Quiero obtener información detallada sobre los planes de suscripción disponibles
+
+Scenario E01: Obtener información sobre los planes de suscripción
+
+             Given que el usuario desea conocer los planes de suscripción disponibles
+             
+             When accede a la página web
+          
+             And  selecciona la opción "Suscripción"
+             
+             Then se mostrará información detallada sobre cada plan de suscripción, incluyendo 
+             características, precios y beneficios adicionales
