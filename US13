@@ -1,0 +1,20 @@
+Feature: US13 - Visualización organizada y fácil de desplazar
+
+Como usuario
+Quiero una interfaz de usuario organizada y fácil de desplazar para una mejor experiencia de uso
+
+Scenario E01: Visualización organizada
+
+              Given que el usuario accede a la página web
+              When navega por la página web
+              And visualiza la página web
+              Then se mostrará una visualización organizada de contenido, con elementos bien estructurados
+              y fácilmente identificables
+
+Scenario E02: Desplazamiento fluido
+
+              Given que el usuario interactúa con la páginan web
+              When desplaza la pantalla vertical
+              And realiza gestos de desplazamiento
+              Then la interfaz de usuario responderá de manera fluida y suave, permitiendo un desplazamiento 
+              fácil y sin retrasos.
