@@ -1,0 +1,10 @@
+Feature: US11 - Servicio
+
+Como usuario
+Quiero saber más de la aplicación y el servicio que me ofrece
+
+Scenario E01: Descripción del servicio
+
+             Given que el usuario desea obtener información sobre el servicio
+             When accede a la página web
+             Then se mostrará una descripción detallada del servicio. 
