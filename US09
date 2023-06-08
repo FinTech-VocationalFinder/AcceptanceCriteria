@@ -1,0 +1,15 @@
+Feature: US11 - Contacto Web
+
+Como usuario
+Quiero tener la opción de contactar al soporte técnico a través de la página web
+
+Scenario E01: Contactar al soporte técnico 
+
+             Given que el usuario desea contactar al soporte técnico
+             
+             When accede a la página web de la empresa
+             
+             And presione el botón "Contacto"
+             
+             Then donde se podrá enviar un mensaje o completar un formulario 
+             de contacto para obtener asistencia
